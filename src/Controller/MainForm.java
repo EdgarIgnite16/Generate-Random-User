@@ -25,7 +25,6 @@ public class MainForm extends javax.swing.JFrame {
      */
     public MainForm() {
         initComponents();
-//        initOption();
     }
 
     public void initOption() {
@@ -281,11 +280,9 @@ public class MainForm extends javax.swing.JFrame {
                     System.out.println(item.toString());
                 }
             });
-
-            _MessageDialogHelper.showMessageDialog(
-                    this, "Bạn đã khởi tạo thành công database!\nVui lòng kiểm tra lại trong CSDL!", "Created Success");
             handleProcessDatabase();
-
+            _MessageDialogHelper.showMessageDialog(this,
+                    "Bạn đã khởi tạo thành công database!\nVui lòng kiểm tra lại trong CSDL!", "Created Success");
         } catch (Exception e) {
             e.printStackTrace();
             throw new Exception();
