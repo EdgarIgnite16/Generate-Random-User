@@ -1,5 +1,6 @@
 # Generate-Random-User
-Tool of Generate Random User Tools using KRandomUser API and force creating a new table with new value generation
+- Tool of Generate Random User Tools using KRandomUser API and force creating a new table with new value generation
+- Technical using: Java JSBC, Java Swing
 
 ## Require to Using:
 <ul>
@@ -8,5 +9,3 @@ Tool of Generate Random User Tools using KRandomUser API and force creating a ne
   <li> Driver on Project (jsbc driver, krandomuser)</li>
   <li> SQL Database exist (create database you need generate random user first)</li>
 </ul>
-
-## Technical using: Java JSBC, Java Swing
